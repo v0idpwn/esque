@@ -22,7 +22,7 @@ defmodule Esque.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kafkaesque, path: "../kafkaesque"},
+      {:kafkaesque, "~> 0.0.1"},
       {:ecto, "~> 3.5"},
       {:ecto_sql, "~> 3.5"},
       {:postgrex, ">= 0.0.0"}
